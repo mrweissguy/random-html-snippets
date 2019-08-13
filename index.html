@@ -4,53 +4,150 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+	
+	</script>
+	
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	
+	<script>
+	
+		function printContent(el){
+			
+//			everything wihtin the inner html is in the variable
+			var restorepage = document.body.innerHTML;
+			
+			var printcontent = document.getElementById(el).innerHTML;
+			
+			document.body.innerHTML = printcontent;
+			
+			window.print();
+			
+//			restorepage right after printing
+			document.body.innerHTML = restorepage;
+			
+		}
+	
+		
+	
+	</script>
+	
+	
 </head>
 <body>
 
 <div class="container">
-  <h2>Astrids Overskrift</h2>
-  <p> Underoverskrift der fortæller lidt om hvad der kommer af information nedenfor. Kan betragtes lidt som en underoverskrift. Der kan laves så mange grupper der er behov for. </p>
+
+ 
+  <h2>Opvarmnings lege</h2>
+  <p> Nedenfor kan du finde forskellige øvelser der kan inplementeres i opvarmningen. </p>
   <div class="panel-group" id="accordion">
-    <div class="panel panel-default">
+    <div class="panel panel-default" id='div1'>
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">KEGLEFANGELEG</a>
         </h4>
       </div>
       <div id="collapse1" class="panel-collapse collapse in">
-        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="panel-body">
+        <br>
+        <b>Rekvisitter:</b> Kegler
+        <br>
+        <br>
+        1-2 fangere alt efter deltagerantal og 3-5 færre kegler end deltager. Fangerne må fange dem, der ikke har helle ved keglerne. Der kan højst være 1 ved hver kegle og den først ankomne skal løbe, når der kommer en ny og gerne vil have helle. Når en deltager er fanget, bliver vedkommende ny fanger.
+        
+        <br>
+        <br>
+        
+<!--        <button onclick="printContent('div1')">print content</button>-->
+        <a onclick="printContent('div1')">Print
+        <i class="fa fa-print"></i>
+        </a>
+        </div>
+        
+        
+        
+         
       </div>
     </div>
-    <div class="panel panel-default">
+    <div class="panel panel-default" id='div2'>
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">KORTLEG</a>
         </h4>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
-        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Et spil kort, Evt. 4 kegler til at markere hjørnerne.
+        <br>
+        <br>
+        Deltagerne deles op i 4 grupper og får hver deres kulør: Klør, ruder, spar og hjerter. Deltagerne starter i hvert deres hjørne og kortene ligger spredt ud i midten med bagsiden opad. Deltagerne må en efter en løbe ind og vende et kort. De må kun vende et kort og de må kun tage kort som er i deres kulør. De skal starte med es og slutte med kongen. Den gruppe som først får samlet 13 kort har vundet.
+        
+        <br>
+        <br>
+<!--        <button onclick="printContent('div2')">Print content</button>-->
+        <a onclick="printContent('div2')">Print
+        <i class="fa fa-print"></i>
+        </a>
+        </div>
       </div>
     </div>
-    <div class="panel panel-default">
+    
+    <div class="panel panel-default" id='div3'>
+     <div>
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">KLEMMELEG</a>
         </h4>
       </div>
       <div id="collapse3" class="panel-collapse collapse">
-        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="panel-body">
+        <b>Rekvisitter:</b> 2-3 klemmer pr. deltager.
+        <br>
+        <br>
+					Hver deltager får hver 2-3 klemmer, som sættes rundt omkring på tøjet. Det gælder om at tage de andres klemmer og undgå at få taget sine egne klemmer. Man må kun tage en klemme ad gangen. Når man har taget en klemme, sættes den fast i sit eget tøj. Til sidst tælles op, hvor mange klemmer, hver enkelt løber har.
+					<br>
+					<br>
+					<b>Variation:</b> Øvelsen kan også laves som hold, hvor der til sidst tælles op hvor mange klemmer holdet samlet har. Tiden på øvelsen kan variere. Banens størrelse kan variere.
+       
+       
+        <br>
+        <br>
+        <a onclick="printContent('div3')" >Print
+        <i class="fa fa-print"></i>
+        </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    
+        <div class="panel panel-default" id='div4'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">HAJ & GULDFISK</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Evt. 4 kegler udendørs.
+        <br>
+					Træneren er haj, og skytterne er guldfisk. Guldfiskene står ved den ene væg. Hajen bevæger sig rundt midt i salen. Guldfiskene skal løbe fra væg til væg uden at blive fanget af hajen. Der er helle ved væggene. Hvis man bliver fanget, bliver man selv til en haj, der skal fange guldfiskene. Guldfiskene bestemmer selv, hvor ofte de løber.
+      
+					<br>
+					<br>
+					<a onclick="printContent('div4')">Print
+					<i class="fa fa-print"></i>
+					</a>
+
+        </div>
       </div>
     </div>
   </div> 
 </div>
     
 </body>
+
 </html>
 
