@@ -10,39 +10,31 @@
 	
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	
-	
 	<script>
-	
 		function printContent(el){
-			
 //			everything wihtin the inner html is in the variable
 			var restorepage = document.body.innerHTML;
-			
 			var printcontent = document.getElementById(el).innerHTML;
-			
 			document.body.innerHTML = printcontent;
-			
 			window.print();
-			
 //			restorepage right after printing
 			document.body.innerHTML = restorepage;
 			
 		}
-	
-		
-	
 	</script>
-	
 	
 </head>
 <body>
 
-<div class="container">
 
- 
+<!--opvarmningslege-->
+<div class="container">
   <h2>Opvarmnings lege</h2>
+  
   <p> Nedenfor kan du finde forskellige øvelser der kan inplementeres i opvarmningen. </p>
   <div class="panel-group" id="accordion">
+   
+<!--   exercise-->
     <div class="panel panel-default" id='div1'>
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -56,21 +48,17 @@
         <br>
         <br>
         1-2 fangere alt efter deltagerantal og 3-5 færre kegler end deltager. Fangerne må fange dem, der ikke har helle ved keglerne. Der kan højst være 1 ved hver kegle og den først ankomne skal løbe, når der kommer en ny og gerne vil have helle. Når en deltager er fanget, bliver vedkommende ny fanger.
-        
         <br>
         <br>
-        
-<!--        <button onclick="printContent('div1')">print content</button>-->
         <a onclick="printContent('div1')">Print
         <i class="fa fa-print"></i>
         </a>
         </div>
-        
-        
-        
-         
       </div>
     </div>
+<!--    exercise done-->
+    
+<!--    exercise start-->
     <div class="panel panel-default" id='div2'>
       <div class="panel-heading">
         <h4 class="panel-title">
@@ -93,9 +81,10 @@
         </div>
       </div>
     </div>
+<!--    exercise done-->
     
+<!--    exercise start-->
     <div class="panel panel-default" id='div3'>
-     <div>
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">KLEMMELEG</a>
@@ -106,24 +95,25 @@
         <b>Rekvisitter:</b> 2-3 klemmer pr. deltager.
         <br>
         <br>
-					Hver deltager får hver 2-3 klemmer, som sættes rundt omkring på tøjet. Det gælder om at tage de andres klemmer og undgå at få taget sine egne klemmer. Man må kun tage en klemme ad gangen. Når man har taget en klemme, sættes den fast i sit eget tøj. Til sidst tælles op, hvor mange klemmer, hver enkelt løber har.
-					<br>
-					<br>
-					<b>Variation:</b> Øvelsen kan også laves som hold, hvor der til sidst tælles op hvor mange klemmer holdet samlet har. Tiden på øvelsen kan variere. Banens størrelse kan variere.
+				Hver deltager får hver 2-3 klemmer, som sættes rundt omkring på tøjet. Det gælder om at tage de andres klemmer og undgå at få taget sine egne klemmer. Man må kun tage en klemme ad gangen. Når man har taget en klemme, sættes den fast i sit eget tøj. Til sidst tælles op, hvor mange klemmer, hver enkelt løber har.
        
-       
+       	<br>
+       	<br>
+       	Variation: Øvelsen kan også laves som hold, hvor der til sidst tælles op hvor mange klemmer holdet samlet har. Tiden på øvelsen kan variere. Banens størrelse kan variere.
+        
         <br>
         <br>
-        <a onclick="printContent('div3')" >Print
+<!--        <button onclick="printContent('div2')">Print content</button>-->
+        <a onclick="printContent('div3')">Print
         <i class="fa fa-print"></i>
         </a>
         </div>
       </div>
-      </div>
     </div>
+<!--    exercise done-->
     
-    
-        <div class="panel panel-default" id='div4'>
+<!--    exercise start-->
+   <div class="panel panel-default" id='div4'>
       <div class="panel-heading">
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">HAJ & GULDFISK</a>
@@ -132,6 +122,7 @@
       <div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body">
         <b>Rekvisitter:</b> Evt. 4 kegler udendørs.
+        <br>
         <br>
 					Træneren er haj, og skytterne er guldfisk. Guldfiskene står ved den ene væg. Hajen bevæger sig rundt midt i salen. Guldfiskene skal løbe fra væg til væg uden at blive fanget af hajen. Der er helle ved væggene. Hvis man bliver fanget, bliver man selv til en haj, der skal fange guldfiskene. Guldfiskene bestemmer selv, hvor ofte de løber.
       
@@ -144,8 +135,511 @@
         </div>
       </div>
     </div>
+<!--    exercise done-->
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div5'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">HAJEN KOMMER</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Evt. 5 kegler udendørs.
+        <br>
+        <br>
+					Del skytterne op i 3-4 grupper. Hver gruppe får et fiskenavn. En af grupperne er hajer. Hajerne står i midten. Fiskene står i hvert deres hjørne af "banen". Træneren nævner en fisk. Den gruppe som kaldes på, begynder med at løbe rundt om hajerne (man må gerne kalde 2-4 grupper så flest muligt er i gang). Træneren råber så: "Hajerne kommer". Hajerne må nu fange de andre fisk. Fiskene skal forsøge at komme hurtigst muligt tilbage til deres startsted uden at blive fanget af hajerne. Når man bliver fanget af hajerne, bliver man selv til en haj. Legen fortsætter nu på denne måde indtil alle er hajer, eller at der kun er meget få fisk tilbage.
+      
+					<br>
+					<br>
+					<a onclick="printContent('div5')">Print
+					<i class="fa fa-print"></i>
+					</a>
+
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div6'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">HALEFANGE</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> 4 kegler og 1 hale pr. deltager (overtrækstrøjer eller affaldspose).
+        <br>
+        <br>
+						Alle deltagerne får udleveret en hale, som de sætter fast i bukserne, så man stadig kan se størstedelen af den. Det gælder om at tage så mange af de andres haler, så hurtigt som muligt eller evt. på et minut. Når Træneren siger, at tiden er gået, stopper alle deltagerne op og tæller antallet af haler, de har fået fat i. Herefter udleveres hallerne igen, så de har 1 hver, så legen kan starte forfra.
+					<br>
+					<br>
+					<a onclick="printContent('div6')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div7'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">HOSPITALSFANGE</a>
+        </h4>
+      </div>
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> 4-8 kegler.
+        <br>
+        <br>
+					Der udvælges et antal fangere, som skal fange resten af deltagerne, der løber rundt i salen/et afgrænset område. Når man fanges, lægger man sig ned det pågældende sted og venter på, at nogle af de andre "frie" deltagere kommer, og som ambulance fragter den syge ind på sygehuset. Dette foregår ved at 2 eller 4 tager den "syge" i arme og ben og bærer den "syge". Som ambulance har man helle. Sygehuset er et ca. 2 x 2 meter område markeret med 4 kegler i midten, hvorfra man helbredes ved at tælle til 10. Legen kan afsluttes ved at sygehuset lukker, og alle efterhånden dør.
+
+					Som variation kan man i stedet for at tælle til 10 for at blive fri kan man: hoppe 10 gange, lave 10 sprællemænd, lave 10 mavebøjninger, ovs.
+
+					<br>
+					<br>
+					<a onclick="printContent('div7')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div8'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">HOVED-HALE-FANGE</a>
+        </h4>
+      </div>
+      <div id="collapse8" class="panel-collapse collapse">
+        <div class="panel-body">
+<!--        <b>Rekvisitter:</b> 4-8 kegler.-->
+<!--        <br>-->
+					Deltagerne stiller sig op på en række og holder fat på hoften på den, der står foran og danner en lang "orm". Den forreste skal nu fange den bageste, uden "ormen" knækker. Når den bagerste er fanget, går den forreste om og er ny hale. På den måde kommer alle i "ormen" til at skulle fange halen. Er der mange deltagere, kan der laves flere orme. Ormene kan nu gå efter egen og andre ormehaler.
+
+					<br>
+					<br>
+					<a onclick="printContent('div8')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div9'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">KATTEN EFTER MUSEN</a>
+        </h4>
+      </div>
+      <div id="collapse9" class="panel-collapse collapse">
+        <div class="panel-body">
+<!--        <b>Rekvisitter:</b> 4-8 kegler.-->
+<!--        <br>-->
+						Deltagerne står i en rundkreds to og to tæt sammen med mellemrum til næste par. En udvalgt deltager er mus (skal fanges), og en anden vælges som kat (fanger). Katten skal fange musen. Musen kan stille sig ved siden af et par i kredsen, og den nye mus er hermed den person, som står længst væk fra "den gamle mus".
+
+						Variation: Ved skift kan der skiftes roller, så musen bliver kat og omvendt. Legen kan leges, hvor deltagerne ligger ned, og musen skal ligge sig ned ved et par, så en ny person bliver mus.
+
+
+					<br>
+					<br>
+					<a onclick="printContent('div9')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div10'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">KEGLELEG</a>
+        </h4>
+      </div>
+      <div id="collapse10" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Kegler.
+        <br>
+        <br>
+					Træneren sætter en masse kegler op i et område, hvor halvdelen af dem står op, og den anden halvdel ligger ned. Deltagerne deles ind på to lige store hold. Hold 1 skal prøve på at få alle keglerne til at stå op. Hold 2 skal prøve på at ligge alle kegler ned. Holdene står i hver sin side af hallen fra start. Når man har rejst en kegle eller lagt en kegle ned, skal man tilbage over en streg, som var der hvor man startede. Det hold der først får alle til at stå op eller ligge ned har vundet.
+					<br>
+					<br>
+					<a onclick="printContent('div10')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div11'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">LØB MED OPGAVER</a>
+        </h4>
+      </div>
+      <div id="collapse11" class="panel-collapse collapse">
+        <div class="panel-body">
+<!--        <b>Rekvisitter:</b> Kegler.-->
+<!--        <br>-->
+					Løb rundt mellem hinanden. Når musikken stopper, stilles forskellige opgaver. Eks. stil op på række efter skostørrelse, højde, hårlængde osv.
+					<br>
+					<br>
+					<a onclick="printContent('div11')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div12'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">PACMAN</a>
+        </h4>
+      </div>
+      <div id="collapse12" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Kegler og noget til at binde for øjnene.
+        <br>
+        <br>
+					Deltagerne sættes sammen 2 og 2, og der udvælges et makkerpar som er fangere. Man udvælger et lille område som legen skal foregå i. Den ene deltager tager bind for øjnene og stiller sig i det afgrænsede område. Den anden deltager skal nu guide den deltager, som har bind for øjnene, så han ikke bliver fanget, ved hjælp af aftalte lyde. Guiderne må ikke gå ind på det område, hvor dem med bind for øjnene er. Fangeren har også bind for øjnene, og det er hans makker som guider ham. Når man bliver taget, går man ud af legen. Næste runde bytter deltagerne plads så begge får prøvet at have bind for øjnene.
+					<br>
+					<br>
+					<a onclick="printContent('div12')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div13'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">RADIOBILER</a>
+        </h4>
+      </div>
+      <div id="collapse13" class="panel-collapse collapse">
+        <div class="panel-body">
+<!--        <b>Rekvisitter:</b> Kegler og noget til at binde for øjnene.-->
+<!--        <br>-->
+					Deltagerne stiller sig efter hinanden. Den forreste er radiobil og den bagerste er føren. Føren får radiobilen til at køre ved:
+					
+					<ul>
+							<li>Frem: små prik på øvre del af ryggen.</li>
+							<li>Tilbage: små prik på nedre del af ryggen.</li>
+							<li>Mod højre: små prik på højre skulder.</li>
+							<li>Mod venstre: små prik på venstreskulder.</li>
+							<li>Stop: hånden lægges på hovedet.</li>
+						</ul>
+						
+							Variation: Radiobilen kan prøve at lukke øjnene. Der kan være forhindringer opstillet i lokalet. Vælg andre berøringer, som på anden vis udfordrer deltagerne ex. mod venstre: små prik på højre skulder ovs...
+
+					<br>
+					<br>
+					<a onclick="printContent('div13')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div14'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">STAFETTER</a>
+        </h4>
+      </div>
+      <div id="collapse14" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Kegler.
+        <br>
+        <br>
+					Træneren deler deltagerne op i mindst to lige store hold. Træneren placerer kegler i to rækker med mindst 10 m afstand. Et sæt kegler pr. hold. Deltagerne stiller sig i en række efter den ene kegle og skal nu løbe ned til den anden og tilbage igen. Når man kommer tilbage til sit hold, klapper man den næste i rækken i hånden og sætter sig ned. Den næste i rækken løber. Når alle sidder ned er gruppen færdige.
+					<br>
+					<br>
+					Variation:
+					<br>
+					Man kan variere stafetter så langt fantasien rækker fx
+
+					<ul>
+							<li>Trække en makker på tæppflise eller løbe med hænder på tæppeflise (med den glatte side nedad).</li>
+							<li>Løb med ærtepose på hovedet eller avis på maven/ryggen.</li>
+							<li>-	Løbe baglands, gadedrengeløb, kravle, sidelands, hoppe, Bevæge sig som diverse dyr osv.	</li>
+						</ul>
+
+					<br>
+					<br>
+					<a onclick="printContent('div14')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div15'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">SAMARBEJDSSTAFET</a>
+        </h4>
+      </div>
+      <div id="collapse15" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Kegler.
+        <br>
+        <br>
+					Træneren deler deltagerne op i mindst to lige store hold, mærker banen op med en kegle i hver ende af salen, et sæt kegler pr. hold. Deltagerne stiller sig i en række efter den ene kegle.  Opgaven er nu at deltagerne, en efter en, skal løbe ned til den anden kegle og tilbage igen. Når man kommer tilbage til sit hold, står holdet i en række med spredte ben lige efter hinanden. Den der har løbet kravler gennem benene og stiller sig bag i rækken og råber "go". Den der er den forreste i rækken nu, løber. Dette fortsættes indtil alle har været igennem.
+					
+					<br>
+					<br>
+					Variation:
+					<br>
+					Det er muligt at variere stafetterne alt efter fantasi. Når man kommer tilbage fra løbeturen kan man: 
+
+
+					<ul>
+							<li>Klappe alle fra holdet i hænderne, mens man løber forbi. </li>
+							<li>Blive transporteres hen over hovederne på en gruppe der sidder i en række med hænderne over hovedet.</li>
+							<li>Løb med en stor t-shirt på, når man kommer tilbage skal man tage den næste i begge hænder og holdet skal hjælpe med at trække t-shirten fra den ene til den anden.	</li>
+							<li>Tage den næste i hånden så de nu løber to sammen. Når de har løbet en tur, tager de den næste i hånden og løber en tur. Når alle fra holdet har løbet en tur sammen, hopper første mand af. Sådan forsætter det til sidste mand har løbet en tur selv. </li>
+						</ul>
+
+					<br>
+					<br>
+					<a onclick="printContent('div15')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div16'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">X og O STAFET</a>
+        </h4>
+      </div>
+      <div id="collapse16" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> 9 Kegler og 6 overtrækstrøjer eller ligene i to forskellige farver (2x3 stk.) .
+        <br>
+        <br>
+					Træneren deler deltagerne op i to hold. De ni kegler bliver sat op i tre rækker med tre kegler i hver række ca. 1 meter imellem keglerne så de danner et kvadrat. De to hold står på en passende afstand af keglerne.  De to hold skal nu dyste i tre på stribe. Første mand fra hvert hold løber op og ligger en trøje ovenpå en af keglerne. Når første mand er kommet tilbage til sit hold og har klappet anden mand i hånden, løber næste mand op med næste trøje. De to hold løber på samme tid og det gælder om at danne tre på stribe. Når alle trøjer er fordelt, må man flytte en af sine egne trøjer når man løber op til keglerne. Spillet forsætter til et af holdene har fået tre på stribe. 
+					
+
+					<br>
+					<br>
+					<a onclick="printContent('div16')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div17'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">TEGNESTAFET</a>
+        </h4>
+      </div>
+      <div id="collapse17" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Papir, Blyant og Kegler.
+        <br>
+        <br>
+					Deltagerne deles i hold af 3-4 deltagere, der står bag en startlinje. 5-8 meter derfra ligger et stykke papir og blyanter udfor hvert hold. 1. deltager løber frem til papiret og tegner en streg til en fælles tegning, løber tilbage til holdet og 2. deltager løber frem og tegner en streg. Deltageren må kun tegne med 1 streg ad gangen. Træneren bestemmer temaet for tegningen f.eks. en dreng/pige, julemand, et dyr. Det kan være nødvendigt at sige, at hver deltager har max 30 sek. til hver streg.
+
+					<br>
+					<br>
+					<a onclick="printContent('div17')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+<!--    exercise start-->
+   <div class="panel panel-default" id='div18'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse18">STIKBOLD</a>
+        </h4>
+      </div>
+      <div id="collapse18" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> En blød bold.
+        <br>
+        <br>
+						Legen går ud på at skyde de andre med bolden og selv undgå at blive skudt. Deltagerne fordeler sig i hele banen, og træneren kaster bolden op i luften. Den, der først får fat i bolden, skal forsøge at ramme en af de andre. Bliver man ramt, går man ned i den ene ende af salen og hopper ti gange (eller en anden øvelse træneren bestemmer) - så kan man være med igen. Hvis bolden gribes, er det den, der kastede bolden, der går ud.
+					<br>
+					<br>
+					<a onclick="printContent('div18')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+ <!--    exercise start-->
+   <div class="panel panel-default" id='div19'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse19">UDBRYDERKONGEN</a>
+        </h4>
+      </div>
+      <div id="collapse19" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Kegler.
+        <br>
+        <br>
+					En deltager, "kongen", placeres inde i en kreds af 3-5 personer. Det gælder nu om at slippe ud af kredsen, mens de øvrige, med hinanden i hånden, skal forsøge at samarbejde om, at holde vedkommende inde i "fængslet".
+					
+					<br>
+					<br>
+					Variation:
+					<ul>
+							<li>Kongen kan være udenfor kredsen og skal bryde ind i kredsen. Rundkredsen må nu samarbejde for at hindre kongen i at komme ind i midten.</li>
+							<li>En fanger er udenfor kredsen og skal nu røre ved kongen, der er med i rundkredsen. Rundkredsen må samarbejde for at hindre kongen i at blive fanget.</li>
+					</ul>
+
+					<br>
+					<br>
+					<a onclick="printContent('div19')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+ 
+ <!--    exercise start-->
+   <div class="panel panel-default" id='div20'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse20">VÆLT EN ISBJØRN</a>
+        </h4>
+      </div>
+      <div id="collapse20" class="panel-collapse collapse">
+        <div class="panel-body">
+<!--        <b>Rekvisitter:</b> En blød bold.-->
+<!--        <br>-->
+						Vi er på Grønland, hvor der er masser af isbjørne (som går på alle fire). Der er også en jæger som gerne vil vælte isbjørnene. Isbjørnene skal gå frem og tilbage fra enderne i salen og undgå at blive væltet af jægeren. Bliver isbjørnen væltet – skal den også være jæger. Sidste isbjørn tilbage – vinder.
+					<br>
+					<br>
+					<a onclick="printContent('div20')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+ 
+ 
+  <!--    exercise start-->
+   <div class="panel panel-default" id='div21'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse21">PAPIROPVARMNING</a>
+        </h4>
+      </div>
+      <div id="collapse21" class="panel-collapse collapse">
+        <div class="panel-body">
+        <b>Rekvisitter:</b> Papir.
+        <br>
+        <br>
+					Hver deltager får udleveret et stykke A4-papir. Opgaven går for deltagerne ud på med strakt hånd og uden at holde ved papiret at undgå at tabe papiret på jorden. 
+					<br>
+					<br>
+					Variation: Skift hånd. Skytterne skal bytte papir undervejs under samme regler. 
+
+					<br>
+					<br>
+					<a onclick="printContent('div21')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+
+
+
+ <!--    exercise start-->
+   <div class="panel panel-default" id='div22'>
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse22">UDBRYDERKONGEN</a>
+        </h4>
+      </div>
+      <div id="collapse22" class="panel-collapse collapse">
+        <div class="panel-body">
+<!--        <b>Rekvisitter:</b> Kegler.-->
+<!--        <br>-->
+					Deltagerne bliver delt i to hold og lægger sig på maven overfor hinanden. Det ene hold er nu Cowboy, og det andet hold er Indianer. Træneren siger nu enten cowboy eller indianer. Hvis han siger cowboy, skal cowboyerne fange indianerne, og siger han indianer, skal indianerne fange cowboyerne. Bliver man taget, inden man når ud af fangezonen, kommer man på det modsatte hold. Det gælder så om at få alle over på ens side – og gør man det, har holdet vundet.
+					
+					<br>
+					<br>
+					Variation:
+					<ul>
+							<li>Deltagerne kan også ligge på ryggen, sidde på numsen, stå på alle fire, stå med ryggen til hinanden… </li>
+							<li>En deltager fra hvert hold kan lege STEN-SAKS-PAPIR mod hinanden og vinderes hold skal fange modstanderholdet.</li>
+							<li>En terning bestemmer hvem der skal fange hvem. Det ene hold er de lige tal og det andet hold de ulige tal på en terning. </li>
+					</ul>
+
+					<br>
+					<br>
+					<a onclick="printContent('div22')">Print
+					<i class="fa fa-print"></i>
+					</a>
+        </div>
+      </div>
+    </div>
+<!--    exercise done-->
+ 
+
   </div> 
 </div>
+   
+<!--Opvarmningsleje slut-->
     
 </body>
 
